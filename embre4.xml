@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="كلية الجزيرة للعلوم الطبية و التكنولوجيا" 
+   android:layout_marginTop="1dp"     />
+
+<TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="Your score appears here" 
+     android:layout_marginTop="1dp"   />
+ <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="أضغط على الازرار للحصول على السؤال"
+android:layout_marginTop="1dp"         />
+  
+  <EditText 
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:text=""
+   android:hint="Answer here" android:layout_marginTop="1dp"     />
+  <EditText 
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="" 
+        android:layout_marginTop="0dp"
+       />
+  <EditText 
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="" 
+        android:layout_marginTop="1dp"
+       />     
+ <EditText 
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:gravity="center"
+        android:text="" 
+        android:layout_marginTop="0dp"
+       />     
+  <EditText 
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="" 
+        android:layout_marginTop="1dp"
+       />     
+         
+  <Button 
+        android:id="@+id/btn"
+        android:layout_width="430dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="أضغط هنا أولا لاختيار السؤال Q1 و بعد الاجابة لمعرفة النتيجة " />
+  <Button 
+        android:id="@+id/btn2"
+        android:layout_width="430dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="ضغط هنا أولا لاختيار السؤال Q2 و بعد الاجابة لمعرفة النتيجة "
+  android:layout_marginTop="1dp"
+  /> 
+                              
+   <Button 
+        android:id="@+id/btn3"
+        android:layout_width="430dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="ضغط هنا أولا لاختيار السؤال Q3 و بعد الاجابة لمعرفة النتيجة "
+  android:layout_marginTop="1dp"/>
+   <Button 
+        android:id="@+id/btn4"
+        android:layout_width="430dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="ضغط هنا أولا لاختيار السؤال Q4 و بعد الاجابة لمعرفة النتيجة"
+  android:layout_marginTop="1dp"/> 
+  
+   <Button 
+        android:id="@+id/btn5"
+        android:layout_width="430dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Next Questions"
+  android:layout_marginTop="1dp"/>             
+ </LinearLayout>
